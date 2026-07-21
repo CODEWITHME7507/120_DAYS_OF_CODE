@@ -55,7 +55,7 @@ elif num2 > num1:
 else:
     print('num1 and num2 is equal')        
 
-'''Q9. Convert Celsius to Fahrenheit.'''
+'''Q9. Convert Celsius to Fahrenheit'''
 
 celsius=int(input('Enter a celsius'))
 fahrenheit=celsius*9/5+32
