@@ -63,7 +63,7 @@ print(f'celsius is: {celsius}')
 print(f'fahrenheit is: {fahrenheit}F')
 
 
-'''Q10. Take a number as input and print its square, cube, and square root.'''
+'''Q10. Take a number as input and print its square, cube, and square root'''
 num=int(input('Enter a number: '))
 print('square of: ',num*num)
 print('cube of ',num**3)
