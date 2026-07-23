@@ -1,5 +1,5 @@
 '''Day 7 (Questions 61–70)'''
-"""
+
 '''Q61. Create a tuple and print all its elements.'''
 
 tup=(10,20,30,40,50,60)
@@ -71,7 +71,7 @@ lis=list(set(lis))
 print('Remove duplicate element using set : ',lis)
 
 '''Q70. Check whether one set is a subset of another set.'''
-"""
+
 set1={10,20,30,10,40,30,20,33,55,66,77,100}
 set2={10,20,30,40}
 sub1=set1.issubset(set2)
