@@ -1,5 +1,5 @@
 'Day 5 (Questions 41–50)'
-"""
+
 'Q41. Count the number of vowels and consonants in a string.'
 
 string=str(input('Enter a string : '))
@@ -100,7 +100,7 @@ for i in string:
 print('Replaced with * string is :',repwith)
 
 'Q50. Find the longest word in a sentence.'
-"""
+
 string=str(input('Enter a sentance: '))
 words=string.split()
 longest_word=words[0]
