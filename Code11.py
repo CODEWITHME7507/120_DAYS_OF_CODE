@@ -1,6 +1,6 @@
 'Day 11 (Questions 101–110)'
 
-"""
+
 'Q101. Create a function to add two numbers.'
 
 def Addition(Num1,Num2):
@@ -91,7 +91,7 @@ def list_sum(lis):
     return sum(lis)
 lis=[10,20,30,40,50,60,70]    
 print('The sum of all element in list is : ',list_sum(lis))
-"""
+
 'Q110. Create a function that accepts a sentence and returns the number of words.'
 
 def word_counter(sentance):
