@@ -1,7 +1,7 @@
 'Day 12 (Questions 111–120)'
 
 
-"""
+
 'Q111. Find the factorial of a number using recursion.'
 
 def factorial(value):
@@ -89,7 +89,7 @@ print('The greatest common divisor is : ',gcd(12,48))
 
 'Q120. Count the number of digits in a number using recursion.'
 
-"""
+
 def count_digit(digit):
     if digit == 0:
         return digit
