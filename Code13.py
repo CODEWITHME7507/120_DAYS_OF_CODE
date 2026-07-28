@@ -1,6 +1,6 @@
 'Day 13 (Questions 121–130)'
 
-"""
+
 
 'Q121. Use a lambda function to find the square of a number.'
 
@@ -78,7 +78,7 @@ def convert_upper(a):
     return a.upper()
 lis= list(map(convert_upper,lis1))
 print(lis)    
-"""
+
 'Q130. Use filter() and lambda together to remove all negative numbers from a list.'
 
 lis=[1,2,-2,-2,1,-3,10,-22]
