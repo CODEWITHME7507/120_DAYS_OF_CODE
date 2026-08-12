@@ -47,7 +47,7 @@ with open('emp.json','r') as jsn_file:
        avg_count += 1
 print('The average salary of employees is :',total_sal/avg_count)       
 
-"""
+
 'Q194. Write data to a CSV file using Python.'
 
 import csv as cs
@@ -65,10 +65,24 @@ print('okk done')
 
 'Q195. Create a program that logs errors to a file using the logging module.'
 
+import logging as log
 
-
+log.basicConfig(
+    filename = 'error.log',
+    level = log.ERROR,
+    format = "%(asctime)s - %(levelname)s - %(message)s"
+)
+try :
+    div= 10/0
+except ZeroDivisionError:
+    log.exception('Calculation failed')    
+"""
 'Q196. Create a student report card by reading marks from a CSV file and calculating the total, average, percentage, and grade.'
 
+import json as js 
+
+with open('student.csv','w') as file:
+    print('csv created successfully')
 
 
 'Q197. Create a program that backs up a text file by copying it to another location with the current date in the filename.'
