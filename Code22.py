@@ -29,16 +29,20 @@ def find_all_pairs(lis,equal):
     return pairs
 print(find_all_pairs(lis,equal))                 
 
-"""
+
 'Q213. Find the most frequent element in a list. If multiple elements have the same frequency, return the first one.'
-lis=[10,20,30,40,50,60,70,80]
+lis=[10,20,30,40,50,60,70,80,70]
 def  frequent_element(lis):
     dicts={}
     for i in lis:
         dicts[i]=lis.count(i)
-    print(dicts)    
-frequent_element(lis)
-
+    if max(dicts.values()) == all(dicts.values()):
+        return lis[0]
+    for j in dicts.keys():
+        if dicts[j] == max(dicts.values()):
+            return j 
+print(frequent_element(lis))
+"""
 'Q214. Find the longest substring without repeating characters.'
 
 
